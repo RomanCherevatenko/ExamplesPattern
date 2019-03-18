@@ -10,7 +10,7 @@ public class Factory {
 }
 
 interface Watch {
-    void showTime();
+    void showTime() ;
 }
 
 class DigitalWatch implements Watch {
